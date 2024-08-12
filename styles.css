@@ -1,0 +1,99 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(201, 202, 202);
+}
+
+#container
+{
+    width: 45%;
+    min-height: 45vh;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 12px 12px 20px rgb(66, 64, 64),
+    -12px -12px 20px rgb(255, 255, 255);
+}
+
+#screen
+{
+    width: 97%;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: rgb(210, 206, 206);
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px rgb(132, 132, 132),
+    inset -8px -8px 8px rgb(255, 255, 255)    ;
+}
+
+#btn-group
+{
+    width: 100%;
+    margin-top: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row-group button
+{
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 8px rgb(25, 24, 24),
+     -5px -5px 8px white;
+     transform: .1s;
+}
+
+.row-group .blank{
+    width: 80px;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    box-shadow: none;
+    background-color: rgb(210, 206, 206);
+}
+
+#btn-group .row-group button:hover
+{
+    box-shadow: inset 5px 5px 8px rgb(25, 24, 24),
+       inset -5px -5px 8px white;
+    }
+
+#clear{
+    background-color: aqua;
+    box-shadow: 5px 5px 8px rgb(57, 86, 81),
+     -5px -5px 8px rgb(158, 233, 215);
+}
+
+#clear:hover{
+    background-color: aqua;
+    box-shadow:inset 5px 5px 8px rgb(57, 86, 81),
+     inset -5px -5px 8px rgb(158, 233, 215);
+}
+
+#equal{
+    background-color: greenyellow;
+    box-shadow: 5px 5px 8px rgb(74, 90, 47),
+     -5px -5px 8px rgb(190, 228, 129);
+}
+
+#equal:hover{
+    background-color: greenyellow;
+    box-shadow:inset  5px 5px 8px rgb(74, 90, 47),
+     inset -5px -5px 8px rgb(190, 228, 129);
+}
